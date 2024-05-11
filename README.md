@@ -37,12 +37,12 @@ You can use Postman, a popular API development tool, to send HTTP requests to th
 
 For example:
 
-- To add files to the store, send a POST request to `http://localhost:5000/add` with files attached in the body.
-- To list files in the store, send a GET request to `http://localhost:5000/ls`.
-- To remove a file, send a DELETE request to `http://localhost:5000/rm/<filename>`.
-- To update a file, send a PUT request to `http://localhost:5000/update/<filename>` with the updated file attached in the body.
-- To get the word count of files, send a GET request to `http://localhost:5000/wc`.
-- To get the most frequent words, send a GET request to `http://localhost:5000/freq-words`.
+- To add files to the store, send a POST request to `http://127.0.0.1:5002/add` with files attached in the body.
+- To list files in the store, send a GET request to `http://127.0.0.1:5002/ls`.
+- To remove a file, send a DELETE request to `http://127.0.0.1:5002/rm/<filename>`.
+- To update a file, send a PUT request to `http://127.0.0.1:5002/update/<filename>` with the updated file attached in the body.
+- To get the word count of files, send a GET request to `http://127.0.0.1:5002/wc`.
+- To get the most frequent words, send a GET request to `http://127.0.0.1:5002/freq-words`.
 
 ## Server Docker Image
 
