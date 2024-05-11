@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: filestore-client
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: filestore-client
+  template:
+    metadata:
+      labels:
+        app: filestore-client
+    spec:
+      containers:
+        - name: client
+          image: yourusername/filestore-client:v1
+          ports:
+            - containerPort: 8080
